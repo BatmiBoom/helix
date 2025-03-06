@@ -35,8 +35,7 @@ render = false
 [keys.normal]
 g = { a = "code_action" } 
 "ret" = ["open_below", "normal_mode"] 
-"A-x" = "@x<A-d>" 
+"space" = { b = { d = ":buffer-close" } }
 
 [keys.insert]
-"A-x" = "normal_mode"
 j = { k = "normal_mode" }
